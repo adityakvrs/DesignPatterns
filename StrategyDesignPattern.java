@@ -55,7 +55,7 @@ public class StrategyPattern
           int second=10;  
           Pattern pattern1 = new Pattern(new Multiply());          
           System.out.println("Multiply = " + pattern1.patternstrategy(first,second));  
-  	      Pattern pattern2 = new Pattern(new Subtraction());       
+  	  Pattern pattern2 = new Pattern(new Subtraction());       
           System.out.println("Subtraction = " + pattern2.patternstrategy(first,second));  
   
           
